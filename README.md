@@ -6,6 +6,8 @@
 ### PISR dataset
  https://pan.baidu.com/s/1QiNUBbOMuHdXEjat6BYh3w?pwd=yteq
 ### SR-RWKV
+SR-RWKV is a lightweight network with a linear attention mechanism which eliminates the quadratic complexity of the Transformer. It consists of three main stages: the shallow feature extraction stage ,the deep feature extraction stage and the high-resolution image reconstruction stage.
+Deep feature extraction stage stacks multiple Residual R-RWKV Groups and serves as the core of the network. RRRGs consist of multiple R-RWKV to efficiently capture global dependencies with linear computational complexity. SR-RWKV utilizes a Recurrent WKV attention mechanism to simulate 2D dependencies in different scanning directions. Additionally, A convolutional layer is added at the end of the block for feature enhancement and residual connection for feature aggregation.
 
 ## Dependencies and Installation
 ```
