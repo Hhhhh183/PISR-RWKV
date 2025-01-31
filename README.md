@@ -12,10 +12,10 @@ pip install -r requirements.txt
 ```
 
 ## train
-`python /SR-RWKV/train.py`
+`python /SR-RWKV/train.py`  
 Then, you can find the weights in the /experiment/Weight  
 
 ## test
-`python /SR-RWKV/test.py`
+`python /SR-RWKV/test.py`  
 Then, you can find the test result in the /experiment/test_result  
 ## Citation
