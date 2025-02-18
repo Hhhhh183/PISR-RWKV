@@ -28,10 +28,10 @@ Then, you can find the test result in the /experiment/test_result
 
 ## citation
 @article{PISR,  
-   title={{Power Inspection Super-Resolution via Lightweight RWKV Framework and Specialized Dataset},  
-   author={Liang, Wanyong and Liu, Jie and Deng, Wei and Lei, Xiaoyan and Cao, Weifeng and Qian, Xiaoliang},  
-   journal={The Visual Computer},  
-   pages={1--22},  
-   year={2025},  
+   &emsp;&emsp;title={{Power Inspection Super-Resolution via Lightweight RWKV Framework and Specialized Dataset},  
+   &emsp;&emsp;author={Liang, Wanyong and Liu, Jie and Deng, Wei and Lei, Xiaoyan and Cao, Weifeng and Qian, Xiaoliang},  
+   &emsp;&emsp;journal={The Visual Computer},  
+   &emsp;&emsp;pages={1--22},  
+   &emsp;&emsp;year={2025},  
    &emsp;&emsp;publisher={Springer}  
 }
