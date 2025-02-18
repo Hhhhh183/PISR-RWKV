@@ -25,3 +25,13 @@ Then, you can find the weights in the /experiment/Weight
 ## test
 `python /SR-RWKV/test.py`  
 Then, you can find the test result in the /experiment/test_result  
+
+## citation
+@article{PISR,
+  title={{Power Inspection Super-Resolution via Lightweight RWKV Framework and Specialized Dataset},
+  author={Liang, Wanyong and Liu, Jie and Deng, Wei and Lei, Xiaoyan and Cao, Weifeng and Qian, Xiaoliang},
+  journal={The Visual Computer},
+  pages={1--22},
+  year={2025},
+  publisher={Springer}
+}
