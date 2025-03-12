@@ -1,6 +1,6 @@
-# Power Inspection Super-Resolution via Lightweight RWKV Framework and Specialized Dataset
+# PowerInsSR: A Large-Scale Dataset for Power Inspection Super-Resolution with RWKV-Based Hierarchical Attention Network
 ## Abstract
-With the continual advancement of modern power systems, there is an increasing demand for high accuracy and reliability in image processing technologies for power inspection tasks. Existing datasets, primarily focusing on natural scenes, fail to adequately address the specific requirements of power inspection. To address this gap, we introduce the Power Inspection Single Image Super-Resolution (PISR) dataset, comprising nearly 1,000 high-resolution (HR) and low-resolution (LR) image pairs tailored for power inspection scenarios. This dataset covers a wide range of electrical equipment in real inspection settings, ensuring data quality and diversity through rigorous screening and preprocessing. Furthermore, we propose a novel lightweight power inspection framework named SR-RWKV, which leverages a linear attention mechanism to mitigate the computational complexity of traditional Transformer-based models. Extensive experiments demonstrate that SR-RWKV achieves state-of-the-art performance across standard benchmarks while significantly reducing computational costs. Notably, the PISR dataset contributes to a PSNR improvement of 1.43 dB compared to the DIV2K dataset. 
+Image super-resolution has demonstrated outstanding performance in high-level vision tasks within power systems, such as equipment detection and fault diagnosis. However, due to the scarcity of high-resolution power images, existing methods often rely on natural scene datasets for training, limiting their adaptability to power-related scenarios. To address this gap, we introduce the Power Inspection Image Super-Resolution (PISR) dataset, which consists of nearly 1000 pairs of high-resolution and low-resolution images specifically tailored for power inspection scenarios. The dataset covers various electrical equipment, including substations and transmission lines, and undergoes rigorous filtering and preprocessing to ensure high quality and diversity, making it more suitable for SR tasks in power image analysis. In addition, we propose a lightweight super-resolution framework for power inspection named SR-RWKV, which leverages a linear attention mechanism to significantly reduce the computational complexity of traditional Transformer-based models. Extensive experiments demonstrate that SR-RWKV achieves state-of-the-art performance across multiple benchmarks while notably lowering computational costs. Notably, compared to models trained on the DIV2K dataset, models trained on PISR achieve a 1.43 dB improvement in PSNR, highlighting its effectiveness in power system applications. 
 ## Overview
 ### PISR dataset
 We propose a new dataset, the PISR dataset, specifically for the SISR task of power inspection. It is the largest and most comprehensive SR dataset in the power inspection domain, covering a wide range of real-world scenarios. https://pan.baidu.com/s/1QiNUBbOMuHdXEjat6BYh3w?pwd=yteq  
@@ -22,13 +22,3 @@ Then, you can find the weights in the /experiment/Weight
 ### test
 `python /SR-RWKV/test.py`  
 Then, you can find the test result in the /experiment/test_result  
-
-## citation
-@article{PISR,  
-   &emsp;&emsp;title={{Power Inspection Super-Resolution via Lightweight RWKV Framework and Specialized Dataset},  
-   &emsp;&emsp;author={Liang, Wanyong and Liu, Jie and Deng, Wei and Lei, Xiaoyan and Cao, Weifeng and Qian, Xiaoliang},  
-   &emsp;&emsp;journal={The Visual Computer},  
-   &emsp;&emsp;pages={1--22},  
-   &emsp;&emsp;year={2025},  
-   &emsp;&emsp;publisher={Springer}  
-}
